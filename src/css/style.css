@@ -1,0 +1,10 @@
+body {
+	font-family: 'Arial', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.list-group-item.completed .title {
+	color: #A9A9A9;
+	text-decoration: line-through;
+}

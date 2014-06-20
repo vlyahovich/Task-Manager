@@ -1,0 +1,29 @@
+{
+	"name": "task-manager",
+	"version": "0.0.1",
+	"main": "build/js/app.js",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"components"
+	],
+	"dependencies": {
+		"handlebars": "*",
+		"backbone": "1.1.2",
+		"backbone.localStorage": "1.1.7",
+		"marionette": "2.0.0"
+	},
+	"overrides": {
+		"backbone.localStorage": {
+			"dependencies": {
+				"backbone": "1.1.2"
+			}
+		},
+		"backbone.babysitter": {
+			"dependencies": {
+				"backbone": "1.1.2"
+			}
+		}
+	}
+
+}
