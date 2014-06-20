@@ -7,7 +7,7 @@ Technologies
 * Backbone js
 * Marionette js
 * Jquery
-* Handlebars
+* Handlebars (precompiled templates)
 * Underscore
 * Jasmine
 * Gulp and Bower (building, running, dependencies management)
