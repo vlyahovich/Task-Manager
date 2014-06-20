@@ -9,6 +9,7 @@ Technologies
 * Jquery
 * Handlebars
 * Underscore
+* Jasmine
 * Gulp and Bower (building, running, dependencies management)
 
 Building and running
@@ -20,3 +21,5 @@ Building and running
 
 Now you can simply build app by `gulp build` or `gulp build-prod` for production.
 If you want to run server with livereload and watch for files change do `gulp watch`.
+
+*Specs are under specs folder. Simply open SpecRunner.html in browser*
